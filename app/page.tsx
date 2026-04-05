@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const pillars = [
@@ -158,12 +159,12 @@ export default function Page() {
           <div className="text-white font-bold">AJKJ</div>
 
           <nav className="flex gap-6 text-sm text-gray-300">
-            <a href="#" className="hover:text-orange-400 transition">
+            <Link href="/" className="hover:text-orange-400 transition">
               HOME
-            </a>
-            <a href="#" className="hover:text-orange-400 transition">
+            </Link>
+            <Link href="/o-asociaci" className="hover:text-orange-400 transition">
               O ASOCIACI
-            </a>
+            </Link>
             <a href="#" className="hover:text-orange-400 transition">
               FILOZOFIE
             </a>
